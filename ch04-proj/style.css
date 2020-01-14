@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#container {
+    width: 75%;
+    border: 1px solid #000;
+    background-color: #ddd;
+    margin: 5px auto; /* center the container inside of browswer's viewport */
+}
+header {
+    font-size: 2em;
+    text-align: center;
+    background-color: #99ffe5;
+}
+article {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+#art1 {
+    color: #ff2626;
+}
+#art2 {
+    color: #265cff;
+}
+footer {
+    text-align: center;
+    background-color: #99ffe5;
+}

@@ -1,0 +1,30 @@
+*{padding:0;margin:0;box-sizing:border-box;}
+#container {
+    width: 40%;
+    max-width: 300px;
+    min-width: 100px;
+    margin: 20px auto;
+    background-color: #eeeeee;
+    border: 1px solid black;
+}
+header {text-align:center; font-weight:bold;}
+form {
+    margin: 10px auto;
+    background-color: #bfffff;
+    width: 80%;
+    overflow: auto;
+    padding: 10px;
+}
+
+#txt {width:80%; float: left;}
+#rad {width:100%; clear:both; float: right; padding: 20px 0 20px 0;}
+#btn {margin: 10px auto; display: block; float: left;}
+#result {
+    padding-left: 50px;
+}
+
+#box {
+    border: 1px solid #4d4cff;
+}
+/* #txt input {background-color:red;} */
+/* #rad input {background-color:pink;} */

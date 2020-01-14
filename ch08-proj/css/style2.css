@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* body { */
+	/* width: 100%; */
+	/* padding: 0; */
+	/* margin: 0; */
+	/* border-width: 0; */
+	/* box-sizing: border-box; */
+/* } */
+
+#container {
+	width: 80%;
+	max-width: 960px;
+	min-width: 500px;
+	margin: 0 auto;
+	/* padding: 0; */
+	/* box-sizing: border-box; */
+	background-color: #eeeeee;
+	/* display: block; */
+}
+
+#ku {
+	position: absolute;
+	margin-top: 3%;
+	margin-left: -3%;
+}
+
+header {
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+	display: block;
+}
+
+header > img {
+	width: 100%;
+	display: block;
+}
+
+nav {
+	background-color: #bfefff;
+}
+
+ol {
+    list-style-type: none;
+    /* margin: 0 auto; */
+    /* padding: 0; */
+    /* overflow: hidden; */
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	padding: 1% 1.5%;
+}
+
+/* li a { */
+    /* text-align: center; */
+/* } */
+
+main, aside {
+	/* padding: 0; */
+	/* margin: 0; */
+	/* display: block; */
+	float: left;
+}
+
+main {
+	width: 60%;
+}
+
+aside {
+	width: 40%;
+	background-color: #dbdbea;
+}
+
+/* aside p{ */
+	/* margin: 0; */
+/* } */
+
+/* main p { */
+	/* margin: 0; */
+/* } */
+
+footer {
+	clear:both;
+	background-color: #bfffdf;
+	width: 100%;
+	/* box-sizing: border-box;  */
+    overflow: auto;  /* THIS IS THE FIX, SEE BELOW COMMENT: */
+}
+/*
+FOOTER WAS NOT SHOWN BECAUSE YOU USED FLOAT FOR BOTH OF ITS CHLDREN, 
+#ft AND img THEREFORE THESE WERE REMOVED FROM THE NORMAL FLOW AND FOOTER HAD
+NO CONTENTS TO SHOW. BY ADDING OVERFLOW:AUTO; THE FOOTER WILL SHOW ITS SIZE
+AS IF ITS CHILDREN WERE INSIDE.
+
+*/
+#ft {
+	float: left;
+	padding-left: 5px;
+}
+
+footer > img {
+	display: inline-block;
+	float: right;
+	width: 9%;
+	padding: .5%;
+}	
